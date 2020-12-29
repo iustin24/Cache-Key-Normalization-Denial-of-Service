@@ -1,9 +1,9 @@
 
 
-<img style="float: left;padding: 10px;margin-top:-20px" src="https://raw.githubusercontent.com/iustin24/Cache-Key-Normalization-Denial-of-Service/main/test.jpg">
+<img style="float: left;padding: 10px;margin-top:-20px" src="https://raw.githubusercontent.com/iustin24/Cache-Key-Normalization-Denial-of-Service/master/test.jpg">
 
 ### youstin
-<a style="line-height: 2em;" href="https://twitter.com/iustinBB" target="_blank"><img style="float: left;" src="https://raw.githubusercontent.com/iustin24/Cache-Key-Normalization-Denial-of-Service/main/twitter.png" alt="Foo"> @iustinBB </a><br />
+<a style="line-height: 2em;" href="https://twitter.com/iustinBB" target="_blank"><img style="float: left;" src="https://raw.githubusercontent.com/iustin24/Cache-Key-Normalization-Denial-of-Service/master/twitter.png" alt="Foo"> @iustinBB </a><br />
 Published: 29 December 2020
 <br><br>
 
@@ -17,7 +17,7 @@ A Cache poisoning vulnerability arises when the cache is tricked by an attacker 
 This is what a cache poisoning denial of service attack would look like:
 
 
-![](https://github.com/iustin24/Cache-Key-Normalization-Denial-of-Service/blob/main/diagram.png?raw=true)
+![](https://github.com/iustin24/Cache-Key-Normalization-Denial-of-Service/blob/master/diagram.png?raw=true)
 
 
 ### Background
