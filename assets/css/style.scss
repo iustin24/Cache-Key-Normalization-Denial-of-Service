@@ -1,0 +1,29 @@
+---
+---
+@import "{{ site.theme }}";
+
+#forkme_banner {
+  display: none;
+}
+#project_title {
+  text-align:center;
+}
+#project_tagline {
+  text-align:center; 
+}
+
+#main_content { 
+  max-width:900px;
+}
+img[src='https://github.com/iustin24/test/blob/main/diagram.png?raw=true'] {
+  display: block;
+  margin: 0 auto;
+}
+#youstin {
+  line-height: 15px;
+}
+img[src='https://raw.githubusercontent.com/iustin24/test/main/test.jpg'] {
+  border-radius: 50%;
+}
+a[href='https://twitter.com/iustinBB'] {
+}

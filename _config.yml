@@ -1,0 +1,8 @@
+theme: jekyll-theme-slate
+description: "What could go wrong?"
+markdown: kramdown
+author: m0chan
+email: root@m0chan.co.uk
+highlighter: rouge
+name: "Cache-Key Normalization"
+title: "Cache-Key Normalization"
