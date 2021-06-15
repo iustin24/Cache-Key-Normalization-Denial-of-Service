@@ -1,3 +1,5 @@
 title: "Cache-Key Normalization"
 gems:
   - jekyll-redirect-from
+plugins:
+  - jekyll-redirect-from
