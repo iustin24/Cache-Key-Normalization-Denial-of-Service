@@ -12,4 +12,4 @@ d
 GET /test.html
 Host: redacted-cdn.com
 Fastly-host: assets.redacted.com
-```ceylon
+```
