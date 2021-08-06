@@ -8,7 +8,7 @@ Fastly-host: maps.redacted.com
 
 d
 
-```
+```ceylon
 GET /test.html
 Host: redacted-cdn.com
 Fastly-host: assets.redacted.com
