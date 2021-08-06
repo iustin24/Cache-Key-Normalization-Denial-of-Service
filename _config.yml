@@ -1,4 +1,5 @@
 title: "Cache-Key Normalization"
+highlighter: rouge
 gems:
   - jekyll-redirect-from
 plugins:
