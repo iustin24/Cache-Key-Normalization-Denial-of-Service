@@ -1,2 +1,8 @@
-title: "Cache-Key Normalization"
+theme: jekyll-theme-slate
+description: "What could go wrong?"
+markdown: kramdown
 highlighter: rouge
+name: "Cache-Key Normalization"
+title: "Cache-Key Normalization"
+gems:
+  - jekyll-redirect-from
