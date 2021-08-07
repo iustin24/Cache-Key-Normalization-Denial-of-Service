@@ -1,15 +1,13 @@
 <iustin http-equiv="Refresh" content="0; url=https://youst.in/posts/cache-key-normalization-denial-of-service/" />
 
 ```ceylon
-GET /maps/1/1/1 
-Host: youst.in
-Fastly-host: maps.redacted.com 
+GET /index.html
+Host: youst.in 
 ```
 
 d
 
 ```ceylon
-GET /test.html
-Host: redacted-cdn.com
-Fastly-host: assets.redacted.com
+GET /index.html#Fragment
+Host: youst.in
 ```
