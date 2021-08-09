@@ -1,15 +1,13 @@
-<iustin http-equiv="Refresh" content="0; url=https://youst.in/posts/cache-key-normalization-denial-of-service/" />
-
 ```ceylon
-GET /index.html HTTP/1.1                      HTTP/2 301 Moved Permanently
-Host: redacted.com                            Location: https://iustin.com/index.html
-x-forwarded-scheme: https                     X-Cache: Hit From Cloudfront
-x-forwarded-host: iustin.com
+GET /static/main.js HTTP/1.1
+Host: redacted.com
+Authorization: AWS4-HMAC-SHA256 Credential=AKIAIOSFODNN7EXAMPLE/20130524/us-east-1/s3/aws4_request, SignedHeaders=host;range;x-amz-date, Signature=fe5f80f77d5fa3beca038a248ff027d0445342fe2855ddc963176630326f1024
+x-amz-content-sha256: STREAMING-AWS4-HMAC-SHA256-PAYLOAD
 ```
-
-
 ```ceylon
-HTTP/2 301 Moved Permanently
-Location: https://iustin.com/index.html
-X-Cache: Hit From Cloudfront
+HTTP/1.1 403 Forbidden
+x-amz-request-id: 2S66W5WD44PXMHB5
+x-amz-id-2: 2xrm46zxtG0n9ZSQhLFxaIPjxq7l9FdEWrWK4/nAVABowlSaGOIXCtcDkBeN+Tn+APojKMVkhhw=
+CF-Cache-Status: HIT
+Age: 2
 ```
