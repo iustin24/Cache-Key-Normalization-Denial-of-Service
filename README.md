@@ -1,10 +1,5 @@
 ```ceylon
-
-field-name = token
-
-token = 1*tchar
-
-tchar = "!" / "#" / "$" / "%" / "&" / "'" / "*" / "+" / "-" / 
-        "." / "^" / "_" / "`" / "|" / "~" / DIGIT / ALPHA
-
+GET / HTTP/2                                   HTTP/2 400 Bad Request
+Host: www.redacted.com                         X-Check-Cacheable: YES
+\: 1     
 ```
