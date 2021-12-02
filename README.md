@@ -1,9 +1,25 @@
-```ceylon
-GET /images/logo.png?size=32x32&siz%65=0 HTTP/1.1    HTTP/1.1 400 Bad Request
-Host: img.redacted.com                               X-Cache: MISS
-                                                     x-cache-key: /images/logo.png?size=32x32
-
-GET /images/logo.png?size=32x32 HTTP/1.1             HTTP/1.1 400 Bad Request
-Host: img.redacted.com                               X-Cache: HIT 
-                                                     x-cache-key: /images/logo.png?size=32x32
-```
+     11 x-forwarded-scheme
+     11 \
+      8 x-forwarded-host
+      6 capitalized host header
+      4 x-forwarded-proto
+      3 x-http-method-override
+      3 x-amz-website-redirect-location
+      3 authorization
+      2 x-rewrite-url
+      2 x-host
+      2 user-agent
+      2 handle
+      1 x-original-url
+      1 x-original-host
+      1 x-forwarded-prefix
+      1 x-amz-server-side-encryption
+      1 trailer
+      1 fastly-ssl
+      1 fastly-host
+      1 fastly-ff
+      1 fastly-client-ip
+      1 content-type
+      1 api-version
+      1 acunetix-header
+      1 accept-version
