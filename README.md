@@ -1,25 +1,11 @@
-     11 x-forwarded-scheme
-     11 \
-      8 x-forwarded-host
-      6 capitalized host header
-      4 x-forwarded-proto
-      3 x-http-method-override
-      3 x-amz-website-redirect-location
-      3 authorization
-      2 x-rewrite-url
-      2 x-host
-      2 user-agent
-      2 handle
-      1 x-original-url
-      1 x-original-host
-      1 x-forwarded-prefix
-      1 x-amz-server-side-encryption
-      1 trailer
-      1 fastly-ssl
-      1 fastly-host
-      1 fastly-ff
-      1 fastly-client-ip
-      1 content-type
-      1 api-version
-      1 acunetix-header
-      1 accept-version
+`` ceylon
+GET /exodus-linux-x64-21.4.9.zip HTTP / 1.1
+Host: downloads.exodus.com
+Authorization: SharedKeyLite myaccount: ctzMq410TV3wS7upTBcunJTDLEJwMAZuFPfr0mrrA08 =  
+``
+`` ceylon
+HTTP / 1.1 403 Forbidden
+x-ms-request-id: 123456
+CF cache status: HIT
+Age: 2
+``
