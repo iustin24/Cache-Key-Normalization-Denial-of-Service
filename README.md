@@ -1,5 +1,5 @@
 ``` ceylon
-GET /exodus-linux-x64-21.4.9.zip HTTP / 1.1
+GET /exodus-linux-x64-21.4.9.zip HTTP/1.1
 Host: downloads.exodus.com
 Authorization: SharedKeyLite myaccount: ctzMq410TV3wS7upTBcunJTDLEJwMAZuFPfr0mrrA08 =  
 ```
