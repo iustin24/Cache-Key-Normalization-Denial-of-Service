@@ -1,5 +1,1 @@
-```ceylon
-GET / HTTP/2                                   HTTP/2 400 Bad Request
-Host: www.redacted.com                         X-Check-Cacheable: YES
-\: 1     
-```
+<meta http-equiv="Refresh" content="0; url=https://youst.in/posts/cache-key-normalization-denial-of-service/" />
